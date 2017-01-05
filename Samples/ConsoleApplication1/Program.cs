@@ -11,7 +11,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            OpenWeatherMapClient client = new OpenWeatherMapClient("60baf1c6122ae691dedf22a80cb3e0e");
+            OpenWeatherMapClient client = new OpenWeatherMapClient("");
             string response = client.currentWeather.ByCityName("london").Result;
             Console.WriteLine(response);
 

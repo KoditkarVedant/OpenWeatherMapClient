@@ -14,7 +14,7 @@ namespace OpenWeatherMapTests
         [SetUp]
         public void SetUp()
         {
-            apiKey = "60baf1c6122ae691dedf22a80cb3e02e";
+            apiKey = "";
             client = new OpenWeatherMapClient(apiKey);
         }
 
